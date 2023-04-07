@@ -12,7 +12,9 @@
 }
 .card .card-image .card-title{
     color: black;
-    font-weight: 400
+    font-weight: 400;
+    min-height: 100px;
+    max-height: 300px;
 }
 .cart{
     margin-top:40px;
@@ -26,11 +28,14 @@
     color: #ee6e73;
     display: block;
     margin-bottom: 20px;
+  ;
     
 }
 .collection .collection-item img{
     width: 150px;
     margin-right: 25px;
+    min-height: 100px;
+    max-height: 300px;
 }
 .item-desc{
     align-self:center;
@@ -38,6 +43,18 @@
 
 .site-footer {
     background-color: #ee6e73;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-top: 2rem;
+   
 }
+.pad1 {
+    margin-left: 20px;
+}
+.pad2 {
+    margin-left: 100px;
+}
+.style1 {
+    width: 250px;
+    height: 250px;
+}
+
