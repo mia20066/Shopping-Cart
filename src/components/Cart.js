@@ -21,7 +21,8 @@ class Cart extends Component{
     render(){
               
         let addedItems = this.props.items.length ?
-            (  
+            (
+                  
                 this.props.items.map(item=>{
                     return(
                        
@@ -65,6 +66,7 @@ class Cart extends Component{
             </div>
        )
     }
+ 
 }
 
 

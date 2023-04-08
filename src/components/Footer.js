@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import '../index.css'
 
 
  const Footer = () => { //list-unstyled remove butllet points that are created nec=xt each link
@@ -9,7 +9,7 @@ return(
 <footer className ='site-footer'>
     <Container>
         <Row>
-            <Col xs={{size: 4,offset: 1}} sm='2'>
+            <Col className="text-center" sm='4'>
                 <h5>Links</h5>
                 <ul className='list-unstyled'>
                     <li>
@@ -24,7 +24,7 @@ return(
                    
                 </ul>
                 </Col>
-            <Col xs='6' sm='3' className='text-center pad1'><h5>Social</h5>
+            <Col  sm='4' className='text-center'><h5>Social</h5>
                        <a
                            className='btn btn-social-icon btn-instagram'
                            href='http://instagram.com/'
@@ -53,7 +53,7 @@ return(
 
                            <i className='fa fa-youtube' />
                        </a></Col>
-            <Col sm='4'className='text-center pad2'><h5>Contact Us</h5><a
+            <Col sm='4'  className='text-center'><h5>Contact Us</h5><a
                            role='button'
                            className='btn btn-link'
                            href='tel:+1-406-559-1234'

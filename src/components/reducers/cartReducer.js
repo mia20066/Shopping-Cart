@@ -9,9 +9,12 @@ import Item8 from '../../images/item8.jpg'
 import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '../actions/action-types/cart-actions'
 
 
+
+
+
 const initState = {
     items: [
-        {id:1,title:'Chicken Dinner', desc: "Marinated Chicken breast cubes, served on a bed of rice, with a side of tomato sauce Served with pita and a side house salad.", price:20.95,img: Item1},
+       {id:1,title:'Chicken Dinner', desc: "Marinated Chicken breast cubes, served on a bed of rice, with a side of tomato sauce Served with pita and a side house salad.", price:20.95,img: Item1},
         {id:2,title:'Kafta Dinner', desc: "Ground Sirloin, mixed with parsley, onions, and spices. Served on a bed of rice with a side of tomato sauce. Served with pita and a side house salad.", price:20.99,img: Item2},
         {id:3,title:'Gyro Dinner', desc: "Grilled Gyro meat, served on a bed of rice, with a side of tomato sauce. Served with pita and a side house salad.",price:17.99,img: Item3},
         {id:4,title:'Lamb Shank', desc: "Fork tender Lamb Shank, slightly drizzled in tomato sauce, served on a bed of rice, with a side of tomato sauce. Served with pita and a side house salad.", price:19.95,img:Item4},
@@ -118,4 +121,4 @@ const cartReducer= (state = initState,action)=>{
     
 }
 
-export default cartReducer
+export default cartReducer;
