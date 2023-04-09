@@ -17,10 +17,10 @@ const initState = {
        {id:1,title:'Chicken Dinner', desc: "Marinated Chicken breast cubes, served on a bed of rice, with a side of tomato sauce Served with pita and a side house salad.", price:20.95,img: Item1},
         {id:2,title:'Kafta Dinner', desc: "Ground Sirloin, mixed with parsley, onions, and spices. Served on a bed of rice with a side of tomato sauce. Served with pita and a side house salad.", price:20.99,img: Item2},
         {id:3,title:'Gyro Dinner', desc: "Grilled Gyro meat, served on a bed of rice, with a side of tomato sauce. Served with pita and a side house salad.",price:17.99,img: Item3},
-        {id:4,title:'Lamb Shank', desc: "Fork tender Lamb Shank, slightly drizzled in tomato sauce, served on a bed of rice, with a side of tomato sauce. Served with pita and a side house salad.", price:19.95,img:Item4},
+        {id:4,title:'Meat Moussaka Dinner', desc: " Eggplant, onions, zucchini, potatoes, ground Sirloin. Cooked with a special white sauce. Served with pita and a side house salad.",price:17.95,img:Item4},
         {id:5,title:'Falafel Dinner', desc: "Six freshly fried Falafel balls, served on a bed of rice, with a side of tahini sauce. Served with pita and a side house salad.", price:19.95,img: Item5},
         {id:6,title:'Baked Kibbi Dinner', desc: "Mixture of Beef, cracked wheat, and herbs. Baked and stuffed with sautéed Beef, onions and pine nuts. Served with pita and a side house salad.",price:17.95,img: Item6},
-        {id:7,title:'Meat Moussaka Dinner', desc: " Eggplant, onions, zucchini, potatoes, ground Sirloin. Cooked with a special white sauce. Served with pita and a side house salad.",price:17.95,img: Item7},
+        {id:7,title:'Lamb Shank', desc: "Fork tender Lamb Shank, slightly drizzled in tomato sauce, served on a bed of rice, with a side of tomato sauce. Served with pita and a side house salad.", price:19.95,img: Item7},
         {id:8,title:'Shawarma Dinner', desc: "Marinated tender Beef slices served with a side of vegetables that include: lettuce, tomatoes, onions, and tahini.",price:16.95,img: Item8}
     ],
     addedItems:[],
