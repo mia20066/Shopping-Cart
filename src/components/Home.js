@@ -34,7 +34,7 @@ import { addToCart } from './actions/cartActions'
 
         return(
             <div className="container">
-                <h3 className="center">Our Menu</h3>
+                <h1 className="center">Our Menu</h1>
                 <div className="box">
                     {itemList}
                 </div>
